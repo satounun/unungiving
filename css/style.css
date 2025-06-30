@@ -1,0 +1,800 @@
+@charset "UTF-8";
+body{
+    margin-top: 70px;
+    color: #333;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.6;
+}
+img{
+    width: 100%;
+}
+header #topArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    padding: 0 70px;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.1);
+    z-index: 100;
+}
+.pc_nav{
+    display: block !important;
+}
+.phone_nav{
+    display: none !important;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+header li:last-of-type{
+    padding-right: 0;
+}
+header li a{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 25.5px 20px;
+    background-image: linear-gradient(#30b924, #30b924); 
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 0 2px;
+    transition: background-size 0.3s;
+}
+header li a:hover{
+background-position: bottom center;
+background-size: 120% 2px;
+}
+.mainvisual{
+    background: url(../img/mainvisual.jpg) no-repeat center top/ cover;
+    height: 500px;
+    margin-bottom: 70px;
+}
+.mainvisual p{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    line-height: 450px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #30b924;
+    margin-bottom: 25px;
+}
+.sub{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.motto{
+    font-size: 40px;
+    font-weight: 600;
+}
+button{
+    background-color: #30b924;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 450px;
+    line-height: 300%;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.2);
+    border-radius: 4px;
+}
+button:hover{
+    box-shadow: 6px 6px 10px rgba(0,0,0,.2);
+}
+.button{
+    text-align: center;
+}
+section{
+    padding: 70px 6%;
+}
+.mottoSec{
+    display: flex;
+    margin-bottom: 60px;
+}
+.motto{
+    flex-basis: 50%;
+    padding-top: 10px;
+}
+.motto_text{
+    flex-basis: 50%;
+}
+.motto_text p{
+    margin-bottom: 18px;
+}
+.aboutSec{
+    background: url(../img/background.jpg) no-repeat center/ cover;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.5;
+    border-bottom: 2px solid #30b924;
+    margin-bottom: 30px;
+}
+.serviceSec p{
+   margin-bottom: 60px; 
+}
+.button2{
+    width: 240px;
+}
+.serviceSec img{
+    border-radius: 15px;
+    height: 420px;
+    object-fit: cover;
+}
+.syusyokusien,
+.ordersuit{
+    display: flex;
+    justify-content: space-between;
+}
+.syusyokusien_text,
+.ordersuit_text{
+    flex-basis: 33%;
+}
+.syusyokusien p,
+.ordersuit p{
+    flex-basis: 65%;
+}
+.syusyokusien{
+    margin-bottom: 100px;
+}
+.ordersuit p{
+    order: -1;
+}
+.newsSec ul,
+.news_sec ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.newsSec li,
+.news_sec li{
+    flex-basis: 32%;
+}
+.newsSec img,
+.news_sec img{
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 4px 4px 3px rgba(0,0,0,.1);
+    margin-bottom: 15px;
+}
+h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.newsSec p
+.news_sec{
+    font-size: 13px;
+    font-weight: 550;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+time{
+    font-size: 11px;
+}
+.contactSec{
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/background.jpg) no-repeat center/ cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact_text{
+    flex-basis: 35%;
+}
+.contactSec p{
+    flex-basis: 55%;
+}
+.contact_text .text{
+    line-height: 3;
+    margin-bottom: 50px;
+}
+.contactSec img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 0 70px;
+}
+.footerArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding:  120px 0 50px;
+}
+.footerArea ul{
+    display: flex;
+    align-items: center;
+}
+footer li a{
+    font-size: 15px;
+    font-weight: bold;
+}
+footer li{
+    padding-right: 20px;
+    }
+footer li:last-of-type{
+    padding-right: 0;
+}
+.adress{
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+.copy{
+    text-align: center;
+    line-height: 3;
+}
+.about_sec h2,
+.service_sec h2,
+.column_sec h2,
+.news_sec h2,
+.contact_sec h2{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.about_sec .sub{
+    margin-bottom: 90px;
+}
+.about_sec .motto{
+    margin-bottom: 100px;
+}
+.ceo_inner{
+    display: flex;
+}
+.ceo_text{
+    flex-basis: 62%;
+}
+.slidein{
+    flex-basis: 38%;
+}
+.ceo_img img{
+    border-radius: 8px;
+}
+.aboutus_sec h3{
+    font-size: 30px;
+    color: #30b924;
+    border-bottom: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutus_sec p{
+    margin-bottom: 20px;
+}
+.aboutus_sec{
+    margin-bottom: 170px;
+}
+.ceo_name{
+    text-align: right;
+    line-height: 2.5;
+}
+.company_sec h3{
+    font-size: 30px;
+    color: #30b924;
+    border-bottom: none;
+}
+.overview{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;    
+}
+.map{
+    flex-basis: 50%;
+}
+dl{
+    flex-basis: 41%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content: space-between;
+}
+dt{
+    margin-bottom: 20px;
+}
+dd{
+    margin-bottom: 10px;
+}
+dl div{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+.dl1,
+.dl2{
+    border-bottom: none;
+    width: 47%;
+}
+.service_sec .sub{
+    margin-bottom: 70px;
+}
+.service_sec .text{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+.serviceus_sec .syusyokusien p,
+.serviceus_sec .ordersuit p{
+    flex-basis: 60%;
+}
+.serviceus_sec .syusyokusien .syusyokusien_text,
+.serviceus_sec .ordersuit .ordersuit_text{
+    flex-basis: 38%;
+}
+.service_sec img{
+    border-radius: 15px;
+    height: 400px;
+    object-fit: cover;
+}
+.serviceus_sec h3 .service_h3{
+    display: list-item;
+    margin-left: 30px;
+}
+.serviceus_sec h3 .service_h3::marker{
+    color: #30b924;
+}
+.serviceus_sec h3{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.serviceus_sec .syusyokusien_text p,
+.serviceus_sec .ordersuit_text p{
+    margin-bottom: 20px;
+}
+.service_sec{
+    margin-bottom: 100px;
+}
+.column_sec .sub{
+    margin-bottom: 100px;
+}
+.column_sec ul{
+    display: flex;
+    justify-content: space-between;
+}
+.column_sec li{
+    flex-basis: 32.5%;
+}
+.column_sec li img{
+    height: 220px;
+    object-fit: cover;
+    object-position: center 30%;
+    box-shadow: 0 5px 5px rgba(0,0,0,.09);
+}
+.column_sec li p{
+    padding-bottom: 20px;
+}
+.column_sec{
+    margin-bottom: 160px;
+}
+.column_sec a:hover,
+.newsSec li:hover,
+.news_sec li:hover{
+    filter: opacity(70%);
+}
+.scale-img{
+    cursor: pointer;
+    overflow: hidden;
+}
+.scale-img img{
+    transition: transform 300ms;
+}
+.column_sec a:hover img,
+.newsSec li:hover img,
+.news_sec li:hover img{
+    transform: scale(1.1);
+}
+.news_sec .sub{
+    margin-bottom: 100px;
+}
+.news_nav{
+    background-color: #f8f8f8;
+    padding: 8px 70px;
+    font-size: 11px;
+    font-weight: 550;
+    box-shadow:inset -5px 0px 5px rgba(0,0,0,.05);
+}
+.news_nav ul{
+    display: flex;
+}
+.news_nav li{
+    margin-right: 20px;
+}
+.news_header{
+    box-shadow: none;
+}
+.news_sec{
+    margin-bottom: 160px;
+}
+.news1_sec,
+.news2_sec{
+    padding: 80px 220px;
+}
+.date_h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.date2025{
+    font-size: 25px;
+    color: #777;
+    line-height: 1.2;
+    text-align: center;
+    margin-right: 15px;
+}
+.date2025::after{
+    content: "";
+    position: relative;
+    left: 45px;
+    top: -25px;
+    width: 65px; 
+    height: 1.2px;
+    background-color: #bbb;
+    display: block;
+    transform: rotate(90deg);
+}
+.y2025{
+    font-size: 14px;
+}
+.news1_sec h2,
+.news2_sec h2{
+    color: #333;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.notice{
+    background-color: #30b924;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.date_date{
+    margin-bottom: 30px;
+}
+.news_img img{
+    width: 550px;
+}
+.news_img{
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,.07);
+    margin: 0 auto 60px;
+}
+.news_text{
+    padding-left: 20px;
+    padding-bottom: 60px;
+    border-bottom: 1px dashed #ddd;
+}
+.nav_under .notice{
+    display: block;
+    width: 50px;
+    margin: 30px 0 30px;
+}
+.nav_under ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_under h5{
+    color: #30b924;
+    font-size: 13px;
+    font-weight: bold;
+}
+.nav_under li{
+    flex-basis: 47%;
+}
+.nav_under li a{
+    font-size: 14px;
+}
+.reverse h5,
+.reverse p{
+    text-align: right;
+}
+.nav_under li:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+    padding-left: 10px;
+    transition: all 150ms linear 0ms;
+}
+.nav_under .reverse:hover{
+    box-shadow: -2px 2px 2px rgba(0,0,0,.1);
+    padding-right: 10px;
+    transition: all 150ms linear 0ms;
+}
+.nav_under li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.line_sec{
+    display: flex;
+    margin-bottom: 80px;
+}
+.line_sec p{
+    flex-basis: 65%;
+}
+.line{
+    width: 250px;
+    line-height: 200%;
+}
+.line:hover{
+    box-shadow: 6px 6px 10px rgba(0,0,0,.2);
+}
+.contact_content{
+    display: flex;
+    margin-bottom: 80px;
+}
+.caution{
+    flex-basis: 52%;
+}
+form{
+    flex-basis: 48%;
+}
+.caution .text1{
+    display: inline-block;
+    line-height: 0.9;
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+}
+.caution .text2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.caution li{
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"]{
+    background-color: #f7f7f7;
+    border: 1px solid #c4c4c4;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 3;
+    padding: 0 10px;
+    position: relative;
+}
+textarea{
+    background-color: #f7f7f7;
+    border: 1px solid #c4c4c4;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    position: relative;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    background-color: #fff;
+    transition: all 300ms linear;
+}
+form label p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.5;
+}
+.red{
+    color: #f00;
+}
+input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+input[type="submit"]:hover{
+    background-color: #ccc;
+    color: #777;
+    transition: all 400ms ease-in;
+}
+input ~ span::after,
+textarea ~ span::after{
+    display: inline-block;
+}
+input:user-valid ~ span::after,
+textarea:user-valid ~ span::after{
+    content: "✓";
+    color: green;
+}
+input:user-invalid ~ span::after,   
+textarea:user-invalid ~ span::after{
+    content: "This is required field.";
+    color: red;
+}
+input:user-invalid,
+textarea:user-invalid{
+    border: 1px solid red;
+}
+.fadein{
+    animation: fadeup 2s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+@keyframes fadeup{
+    0%{
+        transform: translateY(50%);
+        opacity: 0; 
+    }
+    30%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    80%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.slidein{
+    animation: slideIn 2.5s linear forwards;
+}
+@keyframes slideIn{
+    0%{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    80%{
+        opacity: 0.8; 
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.zoomin{
+    animation: zoomIn 2.3s linear forwards;
+}
+@keyframes zoomIn{
+    0%{
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    80%{
+        opacity: 0.8; 
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@media screen and (max-width:960px){
+    header #topArea{
+        height: 45px;
+    }
+    .pc_nav{ 
+        display: none !important;
+    }
+    .phone_nav{ 
+        display: block !important;
+    }
+    .hamburger_menu{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        line-height: 51px;
+        z-index: 100;
+      }
+      /* メニューアイコンを画面右上に固定しています */
+      .hamburger_menu .menu-icon {
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 20px;
+        padding-left: 12px;
+        height: 45px;
+        width: 45px;
+        background-color: #30b924;
+      } 
+      /* メニューアイコン（三本線）の真ん中の線です */
+      .hamburger_menu .menu-icon .navicon {
+        background: #fff; /* 色は自由に変更可能です */
+        display: block;
+        height: 1.5px; /* 太さ */
+        width: 22px; /* 長さ */
+        position: relative;
+        transition: background .4s ease-out; /* 形が変わる時のアニメーション */
+      }
+      /* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
+      .hamburger_menu .menu-icon .navicon::before,
+      .hamburger_menu .menu-icon .navicon::after {
+        background: #fff; /* 色は自由に変更可能です */
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .4s ease-out; /* 形が変わる時のアニメーション */
+        width: 100%;
+      }
+      .hamburger_menu .menu-icon .navicon::before {top: 7px;} /* 位置を上にずらしています */
+      .hamburger_menu .menu-icon .navicon::after {top: -7px;} /* 位置を下にずらしています */
+      /* 表示されるメニューです */
+      .hamburger_menu .menu {
+        background-color: #fff;
+        overflow: hidden;
+        max-height: 0; /* ★最初は高さを0にして非表示状態に */
+        transition: max-height .6s; /* 表示されるときのアニメーション */
+      }
+      /* メニュー部分のデザインです */
+      .hamburger_menu .menu{
+        display: block;
+        width: 80%;
+        height: 100vh;
+        margin-left: 20%;
+        padding-left: 5%;
+      }
+      .hamburger_menu .menu p{
+        margin: 50px 0 5px;
+        padding: 10px;
+        background-color: rgba(48, 185, 36, 1);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 90%;
+        line-height: 1.5;
+      }
+      .hamburger_menu .menu li{
+        width: 90%;
+        border-bottom: 1.5px solid rgba(0,0,0,.1); 
+      }
+      .hamburger_menu .menu li a {
+        display: block;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 3;
+        padding: 0;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .hamburger_menu .menu li a:hover {
+        background-color: #f4f4f4;
+        color: #30b924;
+        background-image: none;
+        transition: none;
+        background-repeat: no-repeat;
+        background-size: 0;    
+      }
+      /* チェックボックスは常に非表示です */
+      .hamburger_menu .menu-btn {
+        display: none;
+      }
+      /* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
+      .hamburger_menu .menu-btn:checked ~ .menu {
+        max-height: 100%; /* ★チェックボックスがオンの時高さを338pxにして表示させます */
+        transition: max-height .6s;
+      }
+      /* メニューボタンの中央の線を非表示に */
+      .hamburger_menu .menu-btn:checked ~ .menu-icon .navicon {background: transparent;}
+      
+      /* メニューボタンの上下の線を45度傾けて✕印を作ります */
+      .hamburger_menu .menu-btn:checked ~ .menu-icon .navicon::before {transform: rotate(-45deg);top: 0;}
+      .hamburger_menu .menu-btn:checked ~ .menu-icon .navicon::after {transform: rotate(45deg);top: 0;}
+
+}
